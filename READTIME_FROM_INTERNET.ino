@@ -1,3 +1,8 @@
+/*
+ * GCI READ TIME FROM SERVER
+ * THIS PROJECT HAS NO RELEVANCE OUTSIDE GCI
+ * (C) ADITYA PREREPA 11/19/18
+ */
 
 #include <ESP8266WiFi.h>
 #include <time.h>
