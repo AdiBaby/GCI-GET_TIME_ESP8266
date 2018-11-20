@@ -9,8 +9,10 @@
 
 int ledPin = 2;
 // Built in LED
-const char* wifi_name = "onhub";
-const char* pass = "ekchotaghar";
+
+//enter in the SSID and Password here...
+const char* wifi_name = "--------";
+const char* pass = "--------";
 
 int zone = 4 * 3600;
 // Im in Fremont, California, so UTC-8 is my time zone.
@@ -71,6 +73,9 @@ void setup() {
 
 void loop() {
   time_t now = time(nullptr);
+  //create struct time_t for getting time from API
   Serial.println(ctime(&now));
+  //Print time
   delay(1000);
+  //Update every second.
 }
